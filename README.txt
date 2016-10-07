@@ -7,7 +7,7 @@ networks with arbitrary number of layers:
 1) functionalPageRank_duplex.m
 
 	calculating the Functional Multiplex PageRank of a duplex 
-	network given the influence vector z
+	network given the influence vector z=[z^(1,0),z^(0,1),z^(1,1)].
 
 2) fPR.m
 
@@ -28,7 +28,7 @@ networks with arbitrary number of layers:
 	This code makes use of the code functionalPageRank_multiplicity.m
 
 
-These programs are distributed ny the authors in the hope that it will be 
+These programs are distributed by the authors in the hope that it will be 
 useful, but WITHOUT ANY WARRANTY; without even the implied warranty of
 MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
   
@@ -40,5 +40,3 @@ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
  (c) Jacopo Iacovacci (mriacovacci@hotmail.it) 
      Christoph Rahmede (c.rahmede@kit.edu)
      Ginestra Bianconi (g.bianconi@qmul.ac.uk)  
-#Functional-Multiplex-PageRank
-# Functional-Multiplex-PageRank
